@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: dark
 title: About
+example: This is an example value.
 ---
 
-Welcome to my new blog!
+About {{ site.title }} by {{ site.author }}.
+{{ page.example }}
 
-wowwwwwww
+{% include big-cat.html %}
