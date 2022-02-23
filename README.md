@@ -7,9 +7,4 @@ Code can be highlighted with `backticks`.
 
 Hyperlinks look like this [GitHub Help](https://help.github.com/).
 
-A bullet list is created using `*`, `+`, or `-`, like:
-
-- dog
-- cat
-- muffin
 
