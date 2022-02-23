@@ -1,8 +1,7 @@
 # Site settings
 title: Policy Models Tutorial
-author:
-  name: Shelly Talis
-  email: shellytalis@gmail.com
+author: Shelly Talis
+email: shellytalis@gmail.com
 description: "Great tutorial about policy model web component."
 
 # Build settings . jekyll-theme-tactile
