@@ -5,4 +5,4 @@ email: shellytalis@gmail.com
 description: "Great tutorial about policy model web component."
 
 # Build settings . jekyll-theme-tactile
-theme: minima
+remote_theme: pmarsceill/just-the-docs
