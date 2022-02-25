@@ -18,9 +18,9 @@ Policy Models Tutorial gives a documentation...
 
 ## Getting started
 
-### Dependencies
+### How it looks like...
 
-...
+<img src="{{ theSite.avatar_url }}" width="100" height="100"/>
 
 ### Quick start: Use as a GitHub Pages remote theme
 
