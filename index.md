@@ -24,7 +24,7 @@ A documentation about Policy Models web component
 
 ### Quick start: Use a Html tag
 
-1. In the "body" tag on your html page, add a html tag that called "policy-models-default" like this:
+1. In the _body_ tag on your html page, add a html tag that called _policy-models-default_ like this:
 
 ```yaml
 <policy-models-default name="PolicyModels">
@@ -35,7 +35,7 @@ A documentation about Policy Models web component
 
 ### Add Style
 
-1. In the html tag "policy-models-default" add:
+1. In the html tag _policy-models-default_ add:
     
 ```yaml
  <div id="style"> <<nameOfFile>> </div>
