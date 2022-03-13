@@ -1,6 +1,7 @@
 ---
 layout: dark
 title: About
+nav_order: 3
 example: This is an example value.
 ---
 
