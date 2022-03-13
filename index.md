@@ -22,28 +22,26 @@ Policy Models Tutorial gives a documentation...
 
 <img width="335" alt="צילום מסך של האתר" src="https://user-images.githubusercontent.com/48415128/158069121-13250618-4f39-468d-a442-c9198fc3e6c8.png">
 
-### Quick start: Use as a GitHub Pages remote theme
+### Quick start: Use a Html tag
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
+1. In the "body" tag on your html page, add a html tag that called "policy-models-default" like this:
 ```yaml
-remote_theme: pmarsceill/just-the-docs
+<policy-models-default name="PolicyModels">
+    </policy-models-default>
 ```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+<small> There is an attribute "name" that specifies the name of the element. In our case it is PolicyModels.
 
-### Local installation: Use the gem-based theme
+### Add Style
 
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
+1. In the html tag "policy-models-default" add:
 ```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
+ <div id="style"> #nameOfFile# </div>
 ```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
+2. In the #nameOfFile# you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is "style" that it will be like this:
 ```yaml
-theme: "just-the-docs"
+<div id="style">style.css</div>
 ```
+  [How to write the css file]
 3. _Optional:_ Initialize search data (creates `search-data.json`)
 ```bash
 $ bundle exec just-the-docs rake search:init
