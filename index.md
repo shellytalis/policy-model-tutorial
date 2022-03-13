@@ -25,23 +25,30 @@ Policy Models Tutorial gives a documentation...
 ### Quick start: Use a Html tag
 
 1. In the "body" tag on your html page, add a html tag that called "policy-models-default" like this:
+
 ```yaml
 <policy-models-default name="PolicyModels">
     </policy-models-default>
 ```
+
 <small> There is an attribute "name" that specifies the name of the element. In our case it is PolicyModels.
 
 ### Add Style
 
 1. In the html tag "policy-models-default" add:
+    
 ```yaml
  <div id="style"> #nameOfFile# </div>
 ```
+    
 2. In the #nameOfFile# you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is "style" that it will be like this:
+    
 ```yaml
 <div id="style">style.css</div>
 ```
+    
   [How to write the css file]
+    
 3. _Optional:_ Initialize search data (creates `search-data.json`)
 ```bash
 $ bundle exec just-the-docs rake search:init
