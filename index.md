@@ -38,7 +38,7 @@ A documentation about Policy Models web component
 1. In the html tag "policy-models-default" add:
     
 ```yaml
- <div id="style"> _<<nameOfFile>>_ </div>
+ <div id="style"> <<nameOfFile>> </div>
 ```
     
 2. In the _<<nameOfFile>>_ you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is `style.css` that it will be like this: 
