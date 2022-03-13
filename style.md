@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Style
+nav_order: 2
 description: "Policy Models Tutorial."
 ---
 
