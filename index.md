@@ -20,7 +20,7 @@ Policy Models Tutorial gives a documentation...
 
 ### How it looks like...
 
-<img src="{{ theSite.avatar_url }}" width="100" height="100"/>
+<img width="335" alt="צילום מסך של האתר" src="https://user-images.githubusercontent.com/48415128/158069121-13250618-4f39-468d-a442-c9198fc3e6c8.png">
 
 ### Quick start: Use as a GitHub Pages remote theme
 
