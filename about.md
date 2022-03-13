@@ -8,6 +8,8 @@ example: This is an example value.
 About {{ site.title }} by {{ site.author }}.
 {{ page.example }}
 
+{% comment %}
+
 {% include img-tiger.html %}
 
 {% for animal in site.data.animals %}
@@ -24,3 +26,5 @@ About {{ site.title }} by {{ site.author }}.
 {% for animal in small_animals %}
 - {{ animal.name | upcase }}
 {% endfor %}
+
+{% endcomment %}
