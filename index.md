@@ -47,7 +47,7 @@ Policy Models Tutorial gives a documentation...
 <div id="style">style.css</div>
 ```
     
-  [How to write the css file]
+  ####[How to write the css file](https://github.com/shellytalis/policy-model-tutorial/blob/main/style.md)
     
 3. _Optional:_ Initialize search data (creates `search-data.json`)
 ```bash
