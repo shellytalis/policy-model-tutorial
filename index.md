@@ -38,10 +38,10 @@ Policy Models Tutorial gives a documentation...
 1. In the html tag "policy-models-default" add:
     
 ```yaml
- <div id="style"> #nameOfFile# </div>
+ <div id="style"> <<nameOfFile>> </div>
 ```
     
-2. In the #nameOfFile# you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is "style" that it will be like this:
+2. In the <<nameOfFile>> you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is "style" that it will be like this:
     
 ```yaml
 <div id="style">style.css</div>
