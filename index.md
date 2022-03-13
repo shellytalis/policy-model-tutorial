@@ -25,7 +25,8 @@ A documentation about Policy Models web component
 ### Quick start: Use a Html tag
 
 1. In the "body" tag on your html page, add a html tag that called "policy-models-default" like this:
-```bash
+
+```yaml
 <policy-models-default name="PolicyModels">
     </policy-models-default>
 ```
@@ -35,12 +36,14 @@ A documentation about Policy Models web component
 ### Add Style
 
 1. In the html tag "policy-models-default" add:
-```bash
+    
+```yaml
  <div id="style"> _<<nameOfFile>>_ </div>
 ```
     
-2. In the _<<nameOfFile>>_ you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is `style.css` that it will be like this:   
-```bash
+2. In the _<<nameOfFile>>_ you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is `style.css` that it will be like this: 
+    
+```yaml
 <div id="style">style.css</div>
 ```
     
