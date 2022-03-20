@@ -32,7 +32,19 @@ A documentation about Policy Models web component
 ```
 
 <small> There is an attribute "name" that specifies the name of the element. In our case it is PolicyModels.
+    
+2. In the _body_ tag on your html page, after the _policy-models-default_ tag, add a html tag that called _script_. There is an attribute _src_ that specifies the source of the java script file.
 
+```yaml
+    <script src= <<nameOfFile>> ></script>
+```
+    
+<small> In the _<<nameOfFile>>_ you need to write the name of the source file. For example, if the name of the file is `app.js` that it will be like this: 
+    
+```yaml
+    <script src="app.js"></script>
+```
+    
 ### Add Style
 
 1. In the html tag _policy-models-default_ add:
@@ -41,7 +53,7 @@ A documentation about Policy Models web component
  <div id="style"> <<nameOfFile>> </div>
 ```
     
-2. In the _<<nameOfFile>>_ you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is `style.css` that it will be like this: 
+<small> In the _<<nameOfFile>>_ you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is `style.css` that it will be like this: 
     
 ```yaml
 <div id="style">style.css</div>
