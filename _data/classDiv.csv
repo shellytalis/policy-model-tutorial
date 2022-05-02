@@ -1,4 +1,4 @@
-nameOfTheClassDiv,Description
+nameOfTheClassDiv,description
 startInterview,This class contains the 'startInterview' class button (Start Interview) that opens the interview page
 restartClass,This class contains the 'restartBtn' class button (Home) that returns to the home page and restarts the interview and data
 buttons,This class contains the 'btnStart' class button (Start) that starts the interview and the 'btn' buttons that each represent an answer
