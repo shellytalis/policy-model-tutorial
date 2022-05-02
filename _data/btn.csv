@@ -1,8 +1,10 @@
 nameOfTheBtn,description
-btnRevisitQ,Button of revisit a specific question
-btnShowTranscript,Button of show transcript
-btnStart,Start button in the welcome page
-btnConclusion,Conclusion button shows the conclusion
-startInterview,StartInterview button starts the interview
-backToWelcomePage,Button Home 
+startInterview,`Start Interview` button opens the interview page
+restartBtn,`Home` button returns to the home page and restarts the interview and data
+btnStart,`Start` button that starts the interview
 btn,The answers buttons
+btnShowTranscript,`Show Transcript` button that shows the transcript of the interview when clicked
+btnRevisitQ,`Revisit this question` button that revisits a specific question
+btnConclusion,`Show Conclusion` button that opens the conclusion page
+btnDownloadTranscript,`Download Transcript` button that downloads the transcript 
+backToWelcomePage,`Home` button that returns to the home page and restarts the interview and data 
