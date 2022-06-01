@@ -19,9 +19,9 @@ A documentation about Policy Models web component
 ## Getting started
 There are two web components:
 
-The first web component is the default interview constructed as follows- multiple choice questions that can be answered by clicking a button that represents the appropriate answer. 
+The first web component,**"Default" web component**, is the default interview constructed as follows- multiple choice questions that can be answered by clicking a button that represents the appropriate answer. 
 
-The second web component is in the form of a chat where you can answer questions using two ways: the first way is by clicking on a button that represents the appropriate answer and the second way is to type in the text box the appropriate answer number. 
+The second web component,**"Chat" web component**, is in the form of a chat where you can answer questions using two ways: the first way is by clicking on a button that represents the appropriate answer and the second way is to type in the text box the appropriate answer number. 
 
 ### How it looks like...
 
@@ -36,7 +36,9 @@ The second web component is in the form of a chat where you can answer questions
 ### Pay attention
 All the following steps are done in your **html file**.
 
+
 ### 1. Quick start: Use a Html tag
+
 
 In the **_body_** tag on your html page, add a html tag that called _policy-models-default_ or _policy-models-Chat_.
 
@@ -54,8 +56,10 @@ In the **_body_** tag on your html page, add a html tag that called _policy-mode
 ```
 
 <small> There is an attribute "name" that specifies the name of the element. In our case it is _PolicyModels_.
+    
    
 ### 2. Add Model
+    
 
 In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
     
@@ -66,7 +70,9 @@ In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
 In the **<<nameOfModel>>** you need to write the **name of the model** of the interview. 
 If you have selected a non-existent interview model, an error message will appear.
     
+    
 ### 3. Add Style
+    
 
 In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
     
@@ -76,6 +82,7 @@ In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
     
 In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style that you want the site to have.
 You can find our css file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+    
 **Pay Attention!** You need to put the css file in the same folder as the html file.
     
 >In case of **_policy-models-default_** it will be like this: `style.css`
@@ -93,7 +100,9 @@ You can find our css file in our [GitHub](https://github.com/EilonBenIshay/Polic
 ### [How to write the css file](https://shellytalis.github.io/policy-model-tutorial/style.html)
     
     
+    
 ### 4. Add Script tag
+    
     
 In the **_body_** tag on your html page, after the _policy-models-default_ tag, add a html tag that called **_script_**. There is an attribute _src_ that specifies the source of the java script file.
 
@@ -102,6 +111,7 @@ In the **_body_** tag on your html page, after the _policy-models-default_ tag, 
 ```
     
 In the **_<<nameOfFile>>_** you need to write the **name of the source file**. You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+    
 **Pay Attention!** You need to put the js file in the same folder as the html file.
     
 >In case of **_policy-models-default_** it will be like this: `policyModelsDefault.js`
@@ -116,7 +126,9 @@ In the **_<<nameOfFile>>_** you need to write the **name of the source file**. Y
     <script src="policyModelsChat.js"></script>
 ```
     
+    
 ### Finally 
+    
     
 After all the steps, the html file should looking like this:
     
