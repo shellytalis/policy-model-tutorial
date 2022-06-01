@@ -33,6 +33,9 @@ The second web component is in the form of a chat where you can answer questions
 
 <img width="335" alt="צילום מסך של האתר" src="https://user-images.githubusercontent.com/48415128/158069121-13250618-4f39-468d-a442-c9198fc3e6c8.png">
 
+### Pay attention
+All the following steps are done in your **html file**.
+
 ### 1. Quick start: Use a Html tag
 
 In the **_body_** tag on your html page, add a html tag that called _policy-models-default_ or _policy-models-Chat_.
@@ -73,6 +76,7 @@ In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
     
 In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style that you want the site to have.
 You can find our css file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+**Pay Attention!** You need to put the css file in the same folder as the html file.
     
 >In case of **_policy-models-default_** it will be like this: `style.css`
     
@@ -98,6 +102,7 @@ In the **_body_** tag on your html page, after the _policy-models-default_ tag, 
 ```
     
 In the **_<<nameOfFile>>_** you need to write the **name of the source file**. You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+**Pay Attention!** You need to put the js file in the same folder as the html file.
     
 >In case of **_policy-models-default_** it will be like this: `policyModelsDefault.js`
     
@@ -110,7 +115,23 @@ In the **_<<nameOfFile>>_** you need to write the **name of the source file**. Y
 ```yaml
     <script src="policyModelsChat.js"></script>
 ```
-
+    
+### Finally 
+    
+After all the steps, the html file should looking like this:
+    
+```yaml
+    <html>
+    <body>
+        <policy-models-Chat name="PolicyModels">
+            <div id="style">styleChat2.css</div>
+            <div id="model">WORKRIGHTS</div>
+        </policy-models-Chat>
+        <script src="policyModelsChat.js"></script>
+    </body>
+    </html>
+```
+You can find our full html file `index.html` in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
 ---
 
 ## About the project
