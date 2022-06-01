@@ -72,13 +72,13 @@ In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
 In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style that you want the site to have.
 You can find our css file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
-In case of **_policy-models-default_** it will be like this: 
+In case of **_policy-models-default_** it will be like this: `style.css`
     
 ```yaml
     <div id="style">style.css</div>
 ```
     
-In case of **_policy-models-Chat_** it will be like this: 
+In case of **_policy-models-Chat_** it will be like this: `styleChat.css`
     
 ```yaml
     <div id="style">styleChat.css</div>
@@ -97,13 +97,13 @@ In the **_body_** tag on your html page, after the _policy-models-default_ tag, 
     
 In the **_<<nameOfFile>>_** you need to write the **name of the source file**. You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
-In case of **_policy-models-default_** it will be like this: 
+In case of **_policy-models-default_** it will be like this: `policyModelsDefault.js`
     
 ```yaml
     <script src="policyModelsDefault.js"></script>
 ```
     
-In case of **_policy-models-Chat_** it will be like this: 
+In case of **_policy-models-Chat_** it will be like this: `policyModelsChat.js`
     
 ```yaml
     <script src="policyModelsChat.js"></script>
