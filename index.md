@@ -81,6 +81,7 @@ In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
 ```
     
 In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style that you want the site to have.
+    
 You can find our css file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
 **Pay Attention!** You need to put the css file in the same folder as the html file.
@@ -97,7 +98,7 @@ You can find our css file in our [GitHub](https://github.com/EilonBenIshay/Polic
     <div id="style">styleChat.css</div>
 ```
     
-### [How to write the css file](https://shellytalis.github.io/policy-model-tutorial/style.html)
+## [How to write the css file](https://shellytalis.github.io/policy-model-tutorial/style.html)
     
     
     
@@ -110,7 +111,9 @@ In the **_body_** tag on your html page, after the _policy-models-default_ tag, 
     <script src= <<nameOfFile>> ></script>
 ```
     
-In the **_<<nameOfFile>>_** you need to write the **name of the source file**. You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+In the **_<<nameOfFile>>_** you need to write the **name of the source file**. 
+    
+You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
 **Pay Attention!** You need to put the js file in the same folder as the html file.
     
@@ -143,7 +146,7 @@ After all the steps, the html file should looking like this:
     </body>
     </html>
 ```
-You can find our full html file `index.html` in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+You can find our full html file `index.html` in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022)
 ---
 
 ## About the project
