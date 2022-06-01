@@ -4,9 +4,10 @@ title: About
 nav_order: 3
 example: This is an example value.
 ---
-About {{ site.title }}
 
 {% comment %}
+
+About {{ site.title }}
 
 About {{ site.title }} by {{ site.author }}.
 {{ page.example }}
