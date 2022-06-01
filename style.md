@@ -7,8 +7,16 @@ description: "Policy Models Tutorial."
 
 ## This is how you are going to write your css file!
 
-To design the interview you want to embed, a css file is needed. The default file we provide - `style.css`, includes names of classes or IDs that express buttons, titles, paragraphs and so on. Each class or ID has its own design. You have the option to use or modify our default file. 
+To design the interview you want to embed, a css file is needed. 
+
+In case of the **"Default" web component**, the default file we provide is `style.css`.
+
+In case of the **"Chat" web component**, the default file we provide is `styleChat.css`.
+
+Each file includes names of classes or IDs that express buttons, titles, paragraphs and so on. Each class or ID has its own design. You have the option to use or modify our default file. 
 **Pay attention!** To change the file, the names of the classes or IDs must remain the same and only their design can be changed using css.
+
+## "Default" web component
 
 **List of name of each button and what it describes:**
 
@@ -30,4 +38,6 @@ To design the interview you want to embed, a css file is needed. The default fil
 - Description of the **{{ id.nameOfTheID }}** id:
   {{ id.description }}.
 {% endfor %}
+
+## "Chat" web component
 
