@@ -1,5 +1,5 @@
 ---
-layout: dark
+layout: default
 title: About
 nav_order: 3
 example: This is an example value.
@@ -30,3 +30,6 @@ About {{ site.title }} by {{ site.author }}.
 {% endfor %}
 
 {% endcomment %}
+
+**PolicyModels** is a system that uses a formal model to identify situations of specific cases as legal systems by interviewing each person’s case.
+
