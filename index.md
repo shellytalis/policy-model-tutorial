@@ -33,7 +33,7 @@ The second web component is in the form of a chat where you can answer questions
 
 ### 1. Quick start: Use a Html tag
 
-1. In the _body_ tag on your html page, add a html tag that called _policy-models-default_ or _policy-models-Chat_.
+In the **_body_** tag on your html page, add a html tag that called _policy-models-default_ or _policy-models-Chat_.
 
 In case of **_policy-models-default_** it will be like this: 
 
@@ -52,24 +52,24 @@ In case of **_policy-models-Chat_** it will be like this:
    
 ### 2. Add Model
 
-1. In the html tag _policy-models-default_ or _policy-models-Chat_ add:
+In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
     
 ```yaml
  <div id="model"> <<nameOfModel>> </div>
 ```
     
-In the _<<nameOfModel>>_ you need to write the **name of the model** of the interview. 
+In the **<<nameOfModel>>** you need to write the **name of the model** of the interview. 
 If you have selected a non-existent interview model, an error message will appear.
     
 ### 3. Add Style
 
-1. In the html tag _policy-models-default_ or _policy-models-Chat_ add:
+In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
     
 ```yaml
  <div id="style"> <<nameOfFile>> </div>
 ```
     
-In the _<<nameOfFile>>_ you need to write the **name of the css file** that describes the style that you want the site to have.
+In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style that you want the site to have.
 You can find our css file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
 In case of **_policy-models-default_** it will be like this: 
@@ -89,13 +89,13 @@ In case of **_policy-models-Chat_** it will be like this:
     
 ### 4. Add Script tag
     
-In the _body_ tag on your html page, after the _policy-models-default_ tag, add a html tag that called _script_. There is an attribute _src_ that specifies the source of the java script file.
+In the **_body_** tag on your html page, after the _policy-models-default_ tag, add a html tag that called **_script_**. There is an attribute _src_ that specifies the source of the java script file.
 
 ```yaml
     <script src= <<nameOfFile>> ></script>
 ```
     
-In the _<<nameOfFile>>_ you need to write the name of the source file. You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+In the **_<<nameOfFile>>_** you need to write the **name of the source file**. You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
 In case of **_policy-models-default_** it will be like this: 
     
