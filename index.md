@@ -17,51 +17,86 @@ A documentation about Policy Models web component
 ---
 
 ## Getting started
-
+There are two web components -
+The first web component is the default interview constructed as follows: multiple choice questions that can be answered by clicking a button that represents the appropriate answer. The second web component is in the form of a chat where you can answer questions using two ways: the first way is by clicking on a button that represents the appropriate answer and the second way is to type in the text box the appropriate answer number. 
 ### How it looks like...
-
+The "Default" web component
+<img width="335" alt="צילום מסך של האתר" src="https://user-images.githubusercontent.com/48415128/158069121-13250618-4f39-468d-a442-c9198fc3e6c8.png">
+The "Chat" web component
 <img width="335" alt="צילום מסך של האתר" src="https://user-images.githubusercontent.com/48415128/158069121-13250618-4f39-468d-a442-c9198fc3e6c8.png">
 
 ### Quick start: Use a Html tag
 
-1. In the _body_ tag on your html page, add a html tag that called _policy-models-default_ like this:
+1. In the _body_ tag on your html page, add a html tag that called _policy-models-default_ or _policy-models-Chat_ like this:
 
 ```yaml
 <policy-models-default name="PolicyModels">
     </policy-models-default>
 ```
+or
+
+```yaml
+<policy-models-Chat name="PolicyModels">
+    </policy-models-Chat>
+```
 
 <small> There is an attribute "name" that specifies the name of the element. In our case it is PolicyModels.
-    
-2. In the _body_ tag on your html page, after the _policy-models-default_ tag, add a html tag that called _script_. There is an attribute _src_ that specifies the source of the java script file.
+   
+### Add Model
 
-```yaml
-    <script src= <<nameOfFile>> ></script>
-```
-    
-<small> In the _<<nameOfFile>>_ you need to write the name of the source file. For example, if the name of the file is `app.js` that it will be like this: 
+1. In the html tag _policy-models-default_ or _policy-models-Chat_ add:
     
 ```yaml
-    <script src="app.js"></script>
+ <div id="model"> <<nameOfModel>> </div>
 ```
+    
+<small> In the _<<nameOfModel>>_ you need to write the name of the model of the interview. 
+If you have selected a non-existent interview model, an error message will appear.
     
 ### Add Style
 
-1. In the html tag _policy-models-default_ add:
+1. In the html tag _policy-models-default_ or _policy-models-Chat_ add:
     
 ```yaml
  <div id="style"> <<nameOfFile>> </div>
 ```
     
-<small> In the _<<nameOfFile>>_ you need to write the name of the css file that describes the style that you want the site to have. For example, if the name of the file is `style.css` that it will be like this: 
+<small> In the _<<nameOfFile>>_ you need to write the name of the css file that describes the style that you want the site to have.
+You can find our css file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+In case of _policy-models-default_ it will be like this: 
     
 ```yaml
-<div id="style">style.css</div>
+    <div id="style">style.css</div>
+```
+    
+In case of _policy-models-Chat_ it will be like this: 
+    
+```yaml
+    <div id="style">styleChat.css</div>
 ```
     
 ### [How to write the css file](https://shellytalis.github.io/policy-model-tutorial/style.html)
     
+### Add Script tag
+    
+In the _body_ tag on your html page, after the _policy-models-default_ tag, add a html tag that called _script_. There is an attribute _src_ that specifies the source of the java script file.
 
+```yaml
+    <script src= <<nameOfFile>> ></script>
+```
+    
+<small> In the _<<nameOfFile>>_ you need to write the name of the source file. You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+In case of _policy-models-default_ it will be like this: 
+    
+```yaml
+    <script src="policyModelsDefault.js"></script>
+```
+    
+In case of _policy-models-Chat_ it will be like this: 
+    
+```yaml
+    <script src="policyModelsChat.js"></script>
+```
 
 ---
 
