@@ -27,7 +27,7 @@ The second web component,**"Chat" web component**, is in the form of a chat wher
 
 #### The "Default" web component
 
-<img width="335" alt="צילום מסך של האתר" src="https://user-images.githubusercontent.com/48415128/158069121-13250618-4f39-468d-a442-c9198fc3e6c8.png">
+<img width="335" alt="צילום מסך של האתר" src="<img width="678" alt="defaultInterview" src="https://user-images.githubusercontent.com/48415128/171925369-276bbf17-c570-4505-aa02-4a9f49fccd74.png">
 
 #### The "Chat" web component
 
