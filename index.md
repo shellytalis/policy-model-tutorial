@@ -25,11 +25,11 @@ The second web component,**"Chat" web component**, is in the form of a chat wher
 
 ## How it looks like...
 
->### The "Default" web component
+### The "Default" web component
 
 <img width="678" alt="defaultInterview" src="https://user-images.githubusercontent.com/48415128/171925369-276bbf17-c570-4505-aa02-4a9f49fccd74.png">
 
->### The "Chat" web component
+### The "Chat" web component
 
 <img width="956" alt="chatInterview" src="https://user-images.githubusercontent.com/48415128/171925649-54665514-1a10-4087-ba3a-77b0b28d401c.png">
 
@@ -164,8 +164,7 @@ After all the steps, the html file should looking like this:
     </body>
     </html>
 ```
-    
-You can find our full html files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022)
+You can find our html files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022)
 ---
 
 ## About the project
