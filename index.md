@@ -27,11 +27,11 @@ The second web component,**"Chat" web component**, is in the form of a chat wher
 
 ### The "Default" web component
 
-<img width="678" alt="defaultInterview" src="https://user-images.githubusercontent.com/48415128/171925369-276bbf17-c570-4505-aa02-4a9f49fccd74.png">
+<img width="887" alt="defaultInterviewNew" src="https://user-images.githubusercontent.com/48415128/171956969-c642453d-9a52-47d9-9263-bf56c436e58d.png">
 
 ### The "Chat" web component
 
-<img width="956" alt="chatInterview" src="https://user-images.githubusercontent.com/48415128/171925649-54665514-1a10-4087-ba3a-77b0b28d401c.png">
+<img width="851" alt="chatInterviewNew" src="https://user-images.githubusercontent.com/48415128/171956940-bba786eb-e739-4722-8ca6-99be467000ff.png">
 
 ### Pay attention
 All the following steps are done in your **html file**.
