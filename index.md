@@ -23,13 +23,13 @@ The first web component,**"Default" web component**, is the default interview co
 
 The second web component,**"Chat" web component**, is in the form of a chat where you can answer questions using two ways: the first way is by clicking on a button that represents the appropriate answer and the second way is to type in the text box the appropriate answer number. 
 
-### How it looks like...
+## How it looks like...
 
-#### The "Default" web component
+>### The "Default" web component
 
 <img width="678" alt="defaultInterview" src="https://user-images.githubusercontent.com/48415128/171925369-276bbf17-c570-4505-aa02-4a9f49fccd74.png">
 
-#### The "Chat" web component
+>### The "Chat" web component
 
 <img width="956" alt="chatInterview" src="https://user-images.githubusercontent.com/48415128/171925649-54665514-1a10-4087-ba3a-77b0b28d401c.png">
 
@@ -83,14 +83,14 @@ In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
 In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style that you want the site to have.
     
 
-    You can find our css file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+You can find our css files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
 **Pay Attention!** You need to put the css file in the same folder as the html file.
     
->In case of **_policy-models-default_** it will be like this: `style.css`
+>In case of **_policy-models-default_** it will be like this: `styleDefault.css`
     
 ```yaml
-    <div id="style">style.css</div>
+    <div id="style">styleDefault.css</div>
 ```
     
 >In case of **_policy-models-Chat_** it will be like this: `styleChat.css`
@@ -115,7 +115,7 @@ In the **_body_** tag on your html page, after the _policy-models-default_ tag, 
 In the **_<<nameOfFile>>_** you need to write the **name of the source file**. 
     
 
-    You can find our source file in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+You can find our source files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
 **Pay Attention!** You need to put the js file in the same folder as the html file.
     
@@ -137,18 +137,35 @@ In the **_<<nameOfFile>>_** you need to write the **name of the source file**.
     
 After all the steps, the html file should looking like this:
     
+>In case of **_policy-models-default_** it will be like this: `indexDefault.html`
+    
+```yaml
+    <html>
+    <body>
+        <policy-models-default name="PolicyModels">
+            <div id="style">styleDefault.css</div>
+            <div id="model">WORKRIGHTS</div>
+        </policy-models-default>
+        <script src="policyModelsDefault.js"></script>
+    </body>
+    </html>
+```
+    
+>In case of **_policy-models-Chat_** it will be like this: `indexChat.html`
+    
 ```yaml
     <html>
     <body>
         <policy-models-Chat name="PolicyModels">
-            <div id="style">styleChat2.css</div>
+            <div id="style">styleChat.css</div>
             <div id="model">WORKRIGHTS</div>
         </policy-models-Chat>
         <script src="policyModelsChat.js"></script>
     </body>
     </html>
 ```
-You can find our full html file `index.html` in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022)
+    
+You can find our full html files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022)
 ---
 
 ## About the project
