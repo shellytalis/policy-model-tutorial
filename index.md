@@ -48,11 +48,11 @@ In the **_body_** tag on your html page, add a html tag that called _policy-mode
 <policy-models-default name="PolicyModels">
     </policy-models-default>
 ```
->In case of **_policy-models-Chat_** it will be like this: 
+>In case of **_policy-models-chat_** it will be like this: 
 
 ```yaml
-<policy-models-Chat name="PolicyModels">
-    </policy-models-Chat>
+<policy-models-chat name="PolicyModels">
+    </policy-models-chat>
 ```
 
 <small> There is an attribute "name" that specifies the name of the element. In our case it is _PolicyModels_.
@@ -61,7 +61,7 @@ In the **_body_** tag on your html page, add a html tag that called _policy-mode
 ### 2. Add Model
     
 
-In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
+In the html **_policy-models-default_** tag or **_policy-models-chat_** tag add:
     
 ```yaml
  <div id="model"> <<nameOfModel>> </div>
@@ -74,7 +74,7 @@ If you have selected a non-existent interview model, an error message will appea
 ### 3. Add Style
     
 
-In the html **_policy-models-default_** tag or **_policy-models-Chat_** tag add:
+In the html **_policy-models-default_** tag or **_policy-models-chat_** tag add:
     
 ```yaml
  <div id="style"> <<nameOfFile>> </div>
@@ -93,7 +93,7 @@ You can find our css files in our [GitHub](https://github.com/EilonBenIshay/Poli
     <div id="style">styleDefault.css</div>
 ```
     
->In case of **_policy-models-Chat_** it will be like this: `styleChat.css`
+>In case of **_policy-models-chat_** it will be like this: `styleChat.css`
     
 ```yaml
     <div id="style">styleChat.css</div>
@@ -106,7 +106,7 @@ You can find our css files in our [GitHub](https://github.com/EilonBenIshay/Poli
 ### 4. Add Script tag
     
     
-In the **_body_** tag on your html page, after the _policy-models-default_ tag, add a html tag that called **_script_**. There is an attribute _src_ that specifies the source of the java script file.
+In the **_body_** tag on your html page, after the _policy-models-default_ tag or the _policy-models-chat_ tag, add a html tag that called **_script_**. There is an attribute _src_ that specifies the source of the java script file.
 
 ```yaml
     <script src= <<nameOfFile>> ></script>
@@ -125,7 +125,7 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
     <script src="policyModelsDefault.js"></script>
 ```
     
->In case of **_policy-models-Chat_** it will be like this: `policyModelsChat.js`
+>In case of **_policy-models-chat_** it will be like this: `policyModelsChat.js`
     
 ```yaml
     <script src="policyModelsChat.js"></script>
@@ -151,15 +151,15 @@ After all the steps, the html file should looking like this:
     </html>
 ```
     
->In case of **_policy-models-Chat_** it will be like this: `indexChat.html`
+>In case of **_policy-models-chat_** it will be like this: `indexChat.html`
     
 ```yaml
     <html>
     <body>
-        <policy-models-Chat name="PolicyModels">
+        <policy-models-chat name="PolicyModels">
             <div id="style">styleChat.css</div>
             <div id="model">WORKRIGHTS</div>
-        </policy-models-Chat>
+        </policy-models-chat>
         <script src="policyModelsChat.js"></script>
     </body>
     </html>
@@ -167,6 +167,7 @@ After all the steps, the html file should looking like this:
 You can find our html files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022)
 ---
 
-## About the project
 
-Policy Models Tutorial is &copy; 2022-{{ "now" | date: "%Y" }} by Shelly, Eilon and Shady.
+    
+
+Policy Models Tutorial is &copy; 2022-{{ "now" | date: "%Y" }} by Shelly Talis, Eilon Ben Ishay and Shady Obeed.
