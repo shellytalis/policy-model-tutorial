@@ -9,9 +9,9 @@ description: "Policy Models Tutorial."
 
 To design the interview you want to embed, a css file is needed. 
 
-In case of the ***["Default"-web-component](#"Default" web component)***, the default file we provide is `styleDefault.css`.
+In case of the ***["Default" web component](#"Default"-web-component)***, the default file we provide is `styleDefault.css`.
 
-In case of the ***["Chat"-web-component](#"Chat" web component)***, the default file we provide is `styleChat.css`.
+In case of the ***["Chat" web component](#"Chat"-web-component)***, the default file we provide is `styleChat.css`.
 
 Each file includes names of classes or IDs that express buttons, titles, paragraphs and so on. Each class or ID has its own design. You have the option to use or modify our default file. 
 **Pay attention!** To change the file, the names of the classes or IDs must remain the same and only their design can be changed using css.
