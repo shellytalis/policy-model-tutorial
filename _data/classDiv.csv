@@ -1,10 +1,19 @@
 nameOfTheClassDiv,description
-startInterview,This class contains the 'startInterview' class button (Start Interview) that opens the interview page
-restartClass,This class contains the 'restartBtn' class button (Home) that returns to the home page and restarts the interview and data
-buttons,This class contains the 'btnStart' class button (Start) that starts the interview and the 'btn' buttons that each represent an answer
-divBtnShowTranscript,This class contains the 'btnShowTranscript' class button (Show Transcript) that shows the transcript of the interview when clicked
-transcript,This class contains the transcript and the 'btnRevisitQ' class button (Revisit this question) 
-conclusion,This class contains the 'btnConclusion' class button (Show Conclusion) that opens the conclusion page
-downloadTranscript,This class contains the 'btnDownloadTranscript' class button (Download Transcript) that download the transcript 
-conclusions,This class contains the conclusions
-backToHome,This class contains the 'backToWelcomePage' class button (Home) that returns to the home page and restarts the interview and data
+policy-models-default,This class div contains the whole interview
+startInterview,This class div contains the 'startInterview' class button (Start Interview) that opens the interview page
+grid, This class div contains the interview in the interview page and it's in charge of dividing the screen - one side is the side of the interview itself, and the other side is the tags
+defaultInterview, This class div contains the interview itself (the left side of the screen)
+tags, This class div contains the 'divBtnShowTags' class div and 'tagsDiv' class div(the right side of the screen)
+divBtnShowTags, This class div contains the 'btnShowTags' class button (Show Current Tags (intermediate result)) that shows the tags
+tagsDiv,This class div contains the tags
+restartClass,This class div contains the 'restartBtn' class button (Home) that returns to the home page and restarts the interview and data
+buttons,This class div contains the 'btnStart' class button (Start) that starts the interview and the 'btn' buttons that each represent an answer
+feedbackDiv,This class div contains the 'feedbackBtn' class button (Write Feedback) that opens the feedback input
+feedbackInputDiv,This class div contains the 'inputNameID' id input and the 'inputID' id input
+divBtnShowTranscript,This class div contains the 'btnShowTranscript' class button (Show Transcript) that shows the transcript of the interview when clicked
+transcript,This class div contains the transcript and the 'btnRevisitQ' class button (Revisit this question) 
+conclusion,This class div contains the 'btnConclusion' class button (Show Conclusion) that opens the conclusion page
+downloadTranscript,This class div contains the 'btnDownloadTranscript' class button (Download Transcript) that download the transcript 
+conclusions,This class div contains the conclusions
+downloadConclusions,This class div contains the 'btnDownloadConclusions' class button (Download Conclusions) that download the conclusions 
+backToHome,This class div contains the 'backToWelcomePage' class button (Home) that returns to the home page and restarts the interview and data
