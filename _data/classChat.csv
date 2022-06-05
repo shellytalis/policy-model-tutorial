@@ -1,0 +1,21 @@
+nameOfTheClass,description
+policy-models-chat,This class div contains the whole interview
+welcomeContent,This class paragraph contains the content of the title in the Welcome page
+startInterview,This class div contains the 'startInterviewBtn' class button `Start Interview`
+grid, This class div contains the interview in the interview page and it's in charge of dividing the screen - one side is the side of the interview itself, and the other side is the tags
+chat, This class div contains the interview itself (the left side of the screen)
+restartClass,This class div contains the 'restartBtn' class button `Home`
+divBtnShowTags, This class div contains the 'btnShowTags' class button `Show Current Tags (intermediate result)`
+tagsDiv,This class div contains the tags
+downloadTranscript,This class div contains the 'btnDownloadTranscript' class button `Download Transcript`
+inputClass,This class input contains the input of the answer
+conclusion,This class div contains the 'btnConclusion' class button `Show Conclusion`
+question,This class div contains the question
+answer,This class div contains the answer
+feedback,This class div contains the 'feedbackBtn' class button `Write Feedback`, the 'feedbackSubmitBtn' class button `Submit Feedback`, the 'inputNameID' id input and the 'inputID' id input
+buttons,This class div contains the 'btn' buttons that each represent an answer 
+transitionToConclusionPageContent,This class paragraph contains Contains the content that appears after the last question and before going to the conclusions page
+conclusionContent,This class paragraph contains the content of the title in the Conclusion page
+conclusions,This class div contains the conclusions
+downloadConclusions,This class div contains the 'btnDownloadConclusions' class button `Download Conclusions`
+backToHome,This class div contains the 'backToWelcomePage' class button `Home`
