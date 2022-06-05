@@ -38,6 +38,8 @@ Each file includes names of classes or IDs that express buttons, titles, paragra
   {{ id.description }}.
 {% endfor %}
 
+{% comment %} 
+
 ## *"Chat" web component*
 
 **List of name of each button and what it describes:**
@@ -61,6 +63,7 @@ Each file includes names of classes or IDs that express buttons, titles, paragra
   {{ id.description }}.
 {% endfor %}
 
+{% endcomment %} 
 
 **Pay attention!**
 
