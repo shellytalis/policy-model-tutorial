@@ -1,0 +1,12 @@
+nameOfTheBtn,description
+startInterviewBtn,`Start Interview` button opens the interview page
+btnShowTags,`Show Current Tags (intermediate result)` button that shows the tags
+restartBtn,`Home` button returns to the home page and restarts the interview and data
+btnDownloadTranscript,`Download Transcript` button that downloads the transcript 
+btnRevisitQ,`Revisit this question` button that revisits a specific question
+feedbackBtn,`Write Feedback` button that opens the feedback input
+btnConclusion,`Show Conclusion` button that opens the conclusion page
+backToWelcomePage,`Home` button that returns to the home page and restarts the interview and data 
+btnDownloadConclusions,`Download Conclusions` button that downloads the conclusions 
+feedbackSubmitBtn,`Submit Feedback` button that submits the feedback 
+btn,The answers buttons
