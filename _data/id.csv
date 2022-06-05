@@ -1,2 +1,4 @@
 nameOfTheID,description
-mySelect,This id describes the menu of languages 
+mySelect,describes the menu of languages 
+inputID,describes the input in which you write down the feedback 
+inputNameID,describes the input in which you write down the name of the person who writes the feedback
