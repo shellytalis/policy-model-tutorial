@@ -64,10 +64,9 @@ Each file includes names of classes or IDs that express buttons, titles, paragra
 
 **Pay attention!**
 
-In both web components, "" and "Chat" web components, in the html files there are **link** tags. 
+In both web components, "Default" and "Chat" web components, in the html files there are **link** tags. 
 
 The `<link rel="stylesheet" href="styleDefault.css">` (in case of "Default" web component) or `<link rel="stylesheet" href="styleChat.css">` (in case of "Chat" web component) link tag is a link to an external style sheet `styleDefault.css` or `styleChat.css`. 
+The other link tags are necessary for the font of the text of the interview.
 
 All this files you can find in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
-
-The other link tags are necessary for the font of the text of the interview.
