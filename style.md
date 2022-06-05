@@ -9,7 +9,7 @@ description: "Policy Models Tutorial."
 
 To design the interview you want to embed, a css file is needed. 
 
-In case of the **"Default" web component**, the default file we provide is `style.css`.
+In case of the **"Default" web component**, the default file we provide is `styleDefault.css`.
 
 In case of the **"Chat" web component**, the default file we provide is `styleChat.css`.
 
@@ -20,21 +20,21 @@ Each file includes names of classes or IDs that express buttons, titles, paragra
 
 **List of name of each button and what it describes:**
 
-{% for btn in site.data.btn %}
+{% for btn in site.data.btnDefault %}
 - Description of the **{{ btn.nameOfTheBtn }}** class that represents a button:
   {{ btn.description }}.
 {% endfor %}
 
 **List of name of each class in div and what it describes:**
 
-{% for classDiv in site.data.classDiv %}
-- Description of the **{{ classDiv.nameOfTheClassDiv }}** class that represents a div:
-  {{ classDiv.description }}.
+{% for class in site.data.classDefault %}
+- Description of the **{{ class.nameOfTheClass }}** class:
+  {{ class.description }}.
 {% endfor %}
 
 **List of name of each id and what it describes:**
 
-{% for id in site.data.id %}
+{% for id in site.data.idDefault %}
 - Description of the **{{ id.nameOfTheID }}** id:
   {{ id.description }}.
 {% endfor %}
