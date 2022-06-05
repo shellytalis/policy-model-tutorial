@@ -10,8 +10,8 @@ tagsDiv,This class div contains the tags
 downloadTranscript,This class div contains the 'btnDownloadTranscript' class button `Download Transcript`
 inputClass,This class input contains the input of the answer
 conclusion,This class div contains the 'btnConclusion' class button `Show Conclusion`
-question,This class div contains the question
-answer,This class div contains the answer
+boxLeft question,This class div contains the question "bubble"
+boxRight answer,This class div contains the answer "bubble"
 feedback,This class div contains the 'feedbackBtn' class button `Write Feedback`, the 'feedbackSubmitBtn' class button `Submit Feedback`, the 'inputNameID' id input and the 'inputID' id input
 buttons,This class div contains the 'btn' buttons that each represent an answer 
 transitionToConclusionPageContent,This class paragraph contains Contains the content that appears after the last question and before going to the conclusions page
