@@ -10,5 +10,5 @@ btnDownloadTranscript,`Download Transcript` button that downloads the transcript
 backToWelcomePage,`Home` button that returns to the home page and restarts the interview and data 
 feedbackBtn,`Write Feedback` button that opens the feedback input
 feedbackSubmitBtn,`Submit Feedback` button that submits the feedback 
-btnDownloadConclusions,`Download Conclusions` button that downloads the conclusions
 btnShowTags,`Show Current Tags (intermediate result)` button that shows the tags
+btnDownloadConclusions,`Download Conclusions` button that downloads the conclusions
