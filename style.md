@@ -39,8 +39,12 @@ Each file includes names of classes or IDs that express buttons, titles, paragra
   {{ id.description }}.
 {% endfor %}
 
-###Pay attention!
-In the html file `indexDefault.html` there are **link** tags. The `<link rel="stylesheet" href="styleDefault.css">` link tag is link to an external style sheet `styleDefault.css`. Both files, the html file and the css file, you can find in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). The other link tags are necessary for the font of the text in the interview.
+**Pay attention!**
+
+
+In the html file `indexDefault.html` there are **link** tags. The `<link rel="stylesheet" href="styleDefault.css">` link tag is link to an external style sheet `styleDefault.css`. Both files, the html file and the css file, you can find in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
+
+The other link tags are necessary for the font of the text of the interview.
 
 ```yaml
 <head>
