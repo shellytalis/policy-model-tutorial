@@ -12,4 +12,3 @@ feedbackBtn,`Write Feedback` button that opens the feedback input
 feedbackSubmitBtn,`Submit Feedback` button that submits the feedback 
 btnDownloadConclusions,`Download Conclusions` button that downloads the conclusions 
 btnShowTags,`Show Current Tags (intermediate result)` button that shows the tags
-
