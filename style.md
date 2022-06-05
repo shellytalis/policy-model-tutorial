@@ -20,7 +20,7 @@ Each file includes names of classes or IDs that express buttons, titles, paragra
 
 **List of name of each button and what it describes:**
 
-{% for btn in site.data.btnDefault %}
+{% for btn in site.data.btn %}
 - Description of the **{{ btn.nameOfTheBtn }}** class that represents a button:
   {{ btn.description }}.
 {% endfor %}
