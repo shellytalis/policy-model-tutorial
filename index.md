@@ -31,7 +31,7 @@ The second web component,**"Chat" web component**, is in the form of a chat wher
 
 ### The "Chat" web component
 
-<img width="851" alt="chatInterviewNew" src="https://user-images.githubusercontent.com/48415128/171956940-bba786eb-e739-4722-8ca6-99be467000ff.png">
+<img width="851" alt="chatInterviewNew" src="https://user-images.githubusercontent.com/48415128/172172014-da893494-f8fb-4975-aa82-fbdf0d33d8d1.png">
 
 ### Pay attention
 All the following steps are done in your **html file**.
