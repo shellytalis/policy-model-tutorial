@@ -106,10 +106,10 @@ You can find our css files in our [GitHub](https://github.com/EilonBenIshay/Poli
 ### 4. Add Script tag
     
     
-In the **_body_** tag on your html page, after the _policy-models-default_ tag or the _policy-models-chat_ tag, add a html tag that called **_script_**. There is an attribute _src_ that specifies the source of the java script file.
+In the **_body_** tag on your html page, after the _policy-models-default_ tag or the _policy-models-chat_ tag, add a html tag that called **_script_**. The _src_ attribute specifies the source of the java script file. The _type_ attribute specifies the type of the script.
 
 ```yaml
-    <script src= <<nameOfFile>> ></script>
+    <script type = "module" src= <<nameOfFile>> ></script>
 ```
     
 In the **_<<nameOfFile>>_** you need to write the **name of the source file**. 
@@ -119,16 +119,20 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
     
 **Pay Attention!** You need to put the js file in the same folder as the html file.
     
->In case of **_policy-models-default_** it will be like this: `policyModelsDefault.js`
+>In case of **_policy-models-default_** it will be like this: `policyModelsDefault.js`, `connection.js`, `textAssets.js`
     
 ```yaml
-    <script src="policyModelsDefault.js"></script>
+    <script type = "module" src="./policyModelsDefault.js"></script>
+    <script type = "module" src="./connection.js"></script>
+    <script type = "module" src="./textAssets.js"></script>
 ```
     
->In case of **_policy-models-chat_** it will be like this: `policyModelsChat.js`
+>In case of **_policy-models-chat_** it will be like this: `policyModelsChat.js`, `connection.js`, `textAssets.js`
     
 ```yaml
-    <script src="policyModelsChat.js"></script>
+    <script type = "module" src="./policyModelsChat.js"></script>
+    <script type = "module" src="./connection.js"></script>
+    <script type = "module" src="./textAssets.js"></script>
 ```
     
     
@@ -146,7 +150,9 @@ After all the steps, the html file should looking like this:
             <div id="style">styleDefault.css</div>
             <div id="model">WORKRIGHTS</div>
         </policy-models-default>
-        <script src="policyModelsDefault.js"></script>
+        <script type = "module" src="./policyModelsDefault.js"></script>
+        <script type = "module" src="./connection.js"></script>
+        <script type = "module" src="./textAssets.js"></script>
     </body>
     </html>
 ```
@@ -160,7 +166,9 @@ After all the steps, the html file should looking like this:
             <div id="style">styleChat.css</div>
             <div id="model">WORKRIGHTS</div>
         </policy-models-chat>
-        <script src="policyModelsChat.js"></script>
+        <script type = "module" src="./policyModelsChat.js"></script>
+        <script type = "module" src="./connection.js"></script>
+        <script type = "module" src="./textAssets.js"></script>
     </body>
     </html>
 ```
