@@ -12,7 +12,7 @@ To design the interview you want to embed, a css file is needed.
 In the html file, in the *head* tag, you need to add the following line for the design. 
 
 ```yaml
-  <link rel="stylesheet" href=*<<nameOfTheCssFile>>* >
+  <link rel="stylesheet" href=<<nameOfTheCssFile>> >
 ```
 This link tag is a link to an external style sheet. 
 
@@ -95,4 +95,4 @@ All this files you can find in our [GitHub](https://github.com/EilonBenIshay/Pol
 ### Pay Attention
 
 All content, like the content inside a button or titles, is saved in variables in a class called `TextAssets.js`.
-An explanation of each variable can be found [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html)
+An explanation of each variable can be found [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).
