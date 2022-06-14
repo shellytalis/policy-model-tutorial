@@ -12,7 +12,7 @@ Number 3 - this.start_interview - describes the content of the button
 
 Number 4 - this.start - describes the content of the button 
 
-Number 5 - this.restart - 
+Number 5 - this.enterAnswer - describes the content of the placeholder of the input 
 
 Number 6 - this.show_transcript - describes the content of the button 
 
@@ -51,4 +51,10 @@ Number 22 - this.hide_tags - describes the content of the button
 Number 23 - this.my_feedback_is - describes the content of the placeholder of the input 
 
 Number 24 - this.my_name_is - describes the content of the placeholder of the input 
+
+Number 25 - this.writeComment - describes the content of the button 
+
+Number 26 - this.submitComment - describes the content of the button 
+
+Number 27 - this.my_comment_is - describes the content of the placeholder of the input 
 
