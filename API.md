@@ -11,7 +11,7 @@ API Endpoints
 
 returns -> Json of available models:
 
-output example: 
+_Output example:_
 
 [
   {
@@ -34,7 +34,7 @@ output example:
 ### GET  /apiInterviewCtrl/:modelId/start
 returns -> list of available languages of the interview model with modelId
 
-output example:
+_Output example:_
 
 [
   "en-US",
@@ -48,7 +48,7 @@ output example:
 
 returns -> start of interview and get data about the first question
 
-output example:
+_Output example:_
 	
 {
   "ssid": "9a8fbde9-7ddc-4cab-8704-67dd6a6decd5",
@@ -97,7 +97,7 @@ reqNodeId : the index of the question that you want to answer(it must be a quest
 
 answerID : the index of the question that you want to answer
 
-output example:
+_Output example:_
 
 {
   "ssid": "9a8fbde9-7ddc-4cab-8704-67dd6a6decd5",
@@ -141,7 +141,7 @@ output example:
 
 Return the current history, and the answers that you have submit, and also returns in the interview back to the question with id is questionId.
 
-output example:
+_Output example:_
 
 {
   "questionId": "2",
@@ -197,7 +197,7 @@ output example:
 
 Returns the tags of the interview in specific language.
 
-output example:
+_Output example:_
 
 {
   "EmployerObligations": [
@@ -238,6 +238,6 @@ output example:
 
 It submit a feedback on a specific question (reqNodeId) , so the admin of the model can see and improve the questions.
 
-output example:
+_Output example:_
 
 	“feedback sent.”
