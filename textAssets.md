@@ -12,7 +12,7 @@ Number 3 - start_interview - describes the content of the button
 
 Number 4 - start - describes the content of the button 
 
-Number 5 - enterAnswer - describes the content of the placeholder of the input 
+Number 5 - enter_answer - describes the content of the placeholder of the input 
 
 Number 6 - show_transcript - describes the content of the button 
 
