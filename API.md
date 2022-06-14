@@ -1,14 +1,18 @@
 ---
 layout: default
-title: About
+title: API
 nav_order: 4
 ---
-#Documentation of the api's with examples\
+# Documentation of the api's with examples
 
 API Endpoints
+
 GET  /apiInterviewCtrl/models/ 
-returns  Json of available models:
+
+returns -> Json of available models:
+
 output example: 
+
 [
   {
     "id": "1",
@@ -37,9 +41,13 @@ output example:
   "he-IL"
 ]
 
+
 GET  /apiInterviewCtrl/:modelId/:versionId/:languageId/start 
-returns  start of interview and get data about the first question
-	output example:
+
+returns -> start of interview and get data about the first question
+
+output example:
+	
 {
   "ssid": "9a8fbde9-7ddc-4cab-8704-67dd6a6decd5",
   "questionId": "0",
@@ -72,16 +80,25 @@ returns  start of interview and get data about the first question
 }
 
 POST /apiInterviewCtrl/answerPost/ 
+
 answers one question and get the next one in the output
+
 this POST API needs json body contains the values of each one of the required params:
+
 uuid : the userId that you get from the previous api output.
+
 modelId : your modelId
+
 versionId : your model version
+
 languageId :  your desired language
+
 reqNodeId : the index of the question that you want to answer(it must be a question that you have arrived to, it can be from 0 to the current questionId)
-answerID : the index of the	question that you want to answer
+
+answerID : the index of the question that you want to answer
 
 output example:
+
 {
   "ssid": "9a8fbde9-7ddc-4cab-8704-67dd6a6decd5",
   "questionId": "1",
@@ -121,8 +138,11 @@ output example:
 
 
 GET  /apiInterviewCtrl/askHistory/:uuid/:modelId/:versionId/:languageId/:questionId/
+
 Return the current history, and the answers that you have submit, and also returns in the interview back to the question with id is questionId.
+
 output example:
+
 {
   "questionId": "2",
   "questionText": "Are you an Israeli citizen?",
@@ -174,8 +194,11 @@ output example:
 }
 
 GET  /apiInterviewCtrl/getTags/:uuid/:modelId/:versionId/:languageId/
+
 Returns the tags of the interview in specific language.
+
 output example:
+
 {
   "EmployerObligations": [
     "hearing",
@@ -212,6 +235,9 @@ output example:
 
 
 GET  /apiInterviewCtrl/feedback/:uuid/:modelId/:versionId/:languageId/:reqNodeId/:writer/:comment/
+
 It submit a feedback on a specific question (reqNodeId) , so the admin of the model can see and improve the questions.
+
 output example:
+
 	“feedback sent.”
