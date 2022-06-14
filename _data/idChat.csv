@@ -3,3 +3,4 @@ mySelect,describes the menu of languages
 inputID,describes the input in which you write down the number of your answer to the question in the interview
 inputFeedbackID,describes the input in which you write down your feedback
 inputFeedbacNameID,describes the input in which you write down the name of the person who writes the feedback
+inputCommentID,describes the input in which you write down your comment
