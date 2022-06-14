@@ -58,6 +58,30 @@ Number 26 - this.submitComment - describes the content of the button
 
 Number 27 - this.my_comment_is - describes the content of the placeholder of the input 
 
+
+### In case of *"Default"* web component
+
+----
+<img width="651" alt="default1" src="https://user-images.githubusercontent.com/48415128/173601935-2401161b-2c85-494a-b519-be1af79a76f1.png">
+****
+
+----
+<img width="651" alt="default2" src="https://user-images.githubusercontent.com/48415128/173602041-15d16baa-7a06-468e-a630-6554a79810fc.png">
+****
+
+----
+<img width="651" alt="default3" src="https://user-images.githubusercontent.com/48415128/173602121-b2b2846a-df1e-4478-b656-f329d2925c68.png">
+****
+
+----
+<img width="651" alt="default4" src="https://user-images.githubusercontent.com/48415128/173602209-296ba97f-12b9-4588-8896-88a2428c9102.png">
+****
+
+----
+<img width="651" alt="default5" src="https://user-images.githubusercontent.com/48415128/173602280-be353f0c-7006-4fbd-af5f-68a32c2946ff.jpeg">
+****
+
+
 ### In case of *"Chat"* web component
 
 ----
@@ -79,5 +103,3 @@ Number 27 - this.my_comment_is - describes the content of the placeholder of the
 ----
 <img width="651" alt="chat5" src="https://user-images.githubusercontent.com/48415128/173581731-d5b16fc7-06e3-415c-aa28-79e2f901c164.png">
 ****
-
-
