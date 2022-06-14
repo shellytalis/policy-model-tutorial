@@ -7,7 +7,7 @@ nav_order: 4
 
 API Endpoints
 
-GET  /apiInterviewCtrl/models/ 
+### GET  /apiInterviewCtrl/models/ 
 
 returns -> Json of available models:
 
@@ -31,9 +31,11 @@ output example:
   }
 ]
 
-GET  /apiInterviewCtrl/:modelId/start
-returns  list of available languages of the interview model with modelId
+### GET  /apiInterviewCtrl/:modelId/start
+returns -> list of available languages of the interview model with modelId
+
 output example:
+
 [
   "en-US",
   "English-Raw",
@@ -42,7 +44,7 @@ output example:
 ]
 
 
-GET  /apiInterviewCtrl/:modelId/:versionId/:languageId/start 
+### GET  /apiInterviewCtrl/:modelId/:versionId/:languageId/start 
 
 returns -> start of interview and get data about the first question
 
@@ -79,11 +81,9 @@ output example:
   }
 }
 
-POST /apiInterviewCtrl/answerPost/ 
+### POST /apiInterviewCtrl/answerPost/ 
 
-answers one question and get the next one in the output
-
-this POST API needs json body contains the values of each one of the required params:
+answers one question and get the next one in the output. This POST API needs json body contains the values of each one of the required params:
 
 uuid : the userId that you get from the previous api output.
 
@@ -137,7 +137,7 @@ output example:
 }
 
 
-GET  /apiInterviewCtrl/askHistory/:uuid/:modelId/:versionId/:languageId/:questionId/
+### GET  /apiInterviewCtrl/askHistory/:uuid/:modelId/:versionId/:languageId/:questionId/
 
 Return the current history, and the answers that you have submit, and also returns in the interview back to the question with id is questionId.
 
@@ -193,7 +193,7 @@ output example:
   }
 }
 
-GET  /apiInterviewCtrl/getTags/:uuid/:modelId/:versionId/:languageId/
+### GET  /apiInterviewCtrl/getTags/:uuid/:modelId/:versionId/:languageId/
 
 Returns the tags of the interview in specific language.
 
@@ -234,7 +234,7 @@ output example:
 }
 
 
-GET  /apiInterviewCtrl/feedback/:uuid/:modelId/:versionId/:languageId/:reqNodeId/:writer/:comment/
+### GET  /apiInterviewCtrl/feedback/:uuid/:modelId/:versionId/:languageId/:reqNodeId/:writer/:comment/
 
 It submit a feedback on a specific question (reqNodeId) , so the admin of the model can see and improve the questions.
 
