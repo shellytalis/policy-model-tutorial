@@ -7,6 +7,8 @@ nav_order: 4
 
 ### API Endpoints
 
+----
+
 `GET  /apiInterviewCtrl/models/`
 
 returns -> Json of available models:
@@ -49,6 +51,8 @@ _Output example:_
 ]
 ```
 
+----
+
 `GET  /apiInterviewCtrl/:modelId/:versionId/:languageId/start`
 
 returns -> start of interview and get data about the first question
@@ -87,6 +91,8 @@ _Output example:_
   }
 }
 ```
+
+----
 
 `POST /apiInterviewCtrl/answerPost/`
 
@@ -144,6 +150,8 @@ _Output example:_
   }
 }
 ```
+
+----
 
 `GET  /apiInterviewCtrl/askHistory/:uuid/:modelId/:versionId/:languageId/:questionId/`
 
@@ -203,6 +211,8 @@ _Output example:_
 }
 ```
 
+----
+
 `GET  /apiInterviewCtrl/getTags/:uuid/:modelId/:versionId/:languageId/`
 
 Returns the tags of the interview in specific language.
@@ -244,6 +254,8 @@ _Output example:_
   }
 }
 ```
+
+----
 
 `GET  /apiInterviewCtrl/feedback/:uuid/:modelId/:versionId/:languageId/:reqNodeId/:writer/:comment/`
 
