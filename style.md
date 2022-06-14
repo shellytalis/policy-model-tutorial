@@ -63,21 +63,21 @@ Each file includes names of classes or IDs that express buttons, titles, paragra
 **List of name of each button and what it describes:**
 
 {% for btn in site.data.btnChat %}
-- Description of the *{{ btn.nameOfTheBtn }}* class that represents a button:
+- Description of the **{{ btn.nameOfTheBtn }}** class that represents a button:
   {{ btn.description }}.
 {% endfor %}
 
 **List of name of each class and what it describes:**
 
 {% for class in site.data.classChat %}
-- Description of the *{{ class.nameOfTheClass }}* class:
+- Description of the **{{ class.nameOfTheClass }}** class:
   {{ class.description }}.
 {% endfor %}
 
 **List of name of each id and what it describes:**
 
 {% for id in site.data.idChat %}
-- Description of the *{{ id.nameOfTheID }}* id:
+- Description of the **{{ id.nameOfTheID }}** id:
   {{ id.description }}.
 {% endfor %}
 
