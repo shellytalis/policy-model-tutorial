@@ -59,8 +59,9 @@ Number 26 - this.submitComment - describes the content of the button
 Number 27 - this.my_comment_is - describes the content of the placeholder of the input 
 
 ### In case of the *"Chat"* web component
+----
 <img width="651" alt="chat1" src="https://user-images.githubusercontent.com/48415128/173581010-2c68e79f-12a9-49a0-9667-0f5c2c27c65b.png">
-
+****
 <img width="651" alt="chat2" src="https://user-images.githubusercontent.com/48415128/173581251-786cae5a-9588-477e-a391-169e264f4748.png">
 
 <img width="651" alt="chat3" src="https://user-images.githubusercontent.com/48415128/173581314-61910e6f-8e13-40dc-a8b0-90a7e427c9df.png">
