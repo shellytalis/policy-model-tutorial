@@ -32,8 +32,9 @@ _Output example:_
   }
 ]
 ```
+
 ----
-****
+
 `GET  /apiInterviewCtrl/:modelId/start`
 returns -> list of available languages of the interview model with modelId
 
