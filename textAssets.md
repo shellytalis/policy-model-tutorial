@@ -111,7 +111,9 @@ you can find a more in-depth explanation of what each attribute is down below.
 * 27 - my_comment_is - describes the content of the placeholder of the input 
 
 
-Attached below are photos of the course of the interview. In each image, the variable is surrounded by its number.
+Attached below are photos of the course of the interview. In each image, the attribute is surrounded by its number.
+
+Note - Some attributes appear in only one web component.
 
 
 ### In case of *"Default"* web component
