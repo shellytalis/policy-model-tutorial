@@ -139,7 +139,7 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
 * `policyModelsDefault.js` or `policyModelsChat.js` is the source file of the web component itself.     
                                                  
 * `connection.js` is a file that is responsible for the connection between the server and the web component.
-   **Pay attention!** On the `connection.js` file, you need change the serverDomain attribute (in line 5) to the domain of the server.                                              
+   **Pay attention!** On the `connection.js` file, you need to change the serverDomain attribute (in line 5) to the domain of the server.                                              
 
 * `textAssets.js` is a file that saves all the contents in variables, like the content inside a button or titles. It is critical to edit this file for the web component to work. For more information, click [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).    
     
