@@ -85,10 +85,10 @@ This shall give you a list of all models, their names, Id's and versions.
 In the html **_policy-models-default_** tag or **_policy-models-chat_** tag add:
     
 ```yaml
- <div id="style"> <<nameOfFile>> </div>
+ <div id="style"> ${nameOfFile} </div>
 ```
     
-In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style you want the site to have.
+In the **${nameOfFile}** you need to write the **name of the css file** that describes the style you want the site to have.
     
 
 You can find our css files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
@@ -118,7 +118,7 @@ In the **_body_** tag on your html page, after the _policy-models-default_ tag o
 
 You can find our source files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
-**Pay Attention!** You need to put the js file in the same folder as the html file.
+**Pay Attention!** You need to put the js files in the same folder as the html file.
     
 >In case of **_policy-models-default_** it will be like this: `policyModelsDefault.js`, `connection.js`, `textAssets.js`
     
@@ -140,9 +140,7 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
                                                  
 * `connection.js` is a file that is responsible for the connection between the server and the web component.     
 
-* `textAssets.js` is a file that saves all the contents in variables, like the content inside a button or titles. In addition, each model has its own languages. To add / remove a language, you need to modify this file.
-                                                 
-For more information on this file, click [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).    
+* `textAssets.js` is a file that saves all the contents in variables, like the content inside a button or titles. It is critical to edit this file for the web component to work. For more information, click [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).    
     
 ### Finally 
     
