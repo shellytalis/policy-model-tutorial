@@ -58,18 +58,26 @@ In the **_body_** tag on your html page, add a html tag that called _policy-mode
 <small> There is an attribute "name" that specifies the name of the element. In our case it is _PolicyModels_.
     
    
-### 2. Add Model
+### 2. Add modelId and versionId
     
 
 In the html **_policy-models-default_** tag or **_policy-models-chat_** tag add:
     
 ```yaml
- <div id="model"> <<nameOfModel>> </div>
+ <div id="modelId> ${modelId} </div>
+ <div id="versionId"> ${versionId} </div>
 ```
     
-In the **<<nameOfModel>>** you need to write the **name of the model** of the interview. 
-If you have selected a non-existent interview model, an error message will appear.
-    
+In the **${modelId}** you need to write the **id of the model** of the interview. 
+                   
+In the **${versionId}** you need to write the **version id of the model** of the interview. 
+                    
+**How to find the Model ID and the Model Version?**
+
+Go to any browser of your choice (can also use the commandline with the command 'curl') and type - 
+`[serverDomain]/apiInterviewCtrl/models/` .
+This shall give you a list of all models, their names, Id's and versions.                    
+                    
     
 ### 3. Add Style
     
