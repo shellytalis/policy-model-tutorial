@@ -11,8 +11,10 @@ Go to any browser of your choice (can alcommand linecommandline with the command
 `[serverDomain]/apiInterviewCtrl/${modelId}/start/`. 
 Replace the ${modelId} with the Model Id you found before. This shall give you a list of all the possible languages for this specific model.
 
+#### After finding the languages of the model ... 
 
 In order to **add a Language** you must write the following - 
+
 TextAssets.set(~languageName~, ~languageObject~);
 
 A language object looks like this (this is an example for English)- 
@@ -47,9 +49,10 @@ A language object looks like this (this is an example for English)-
 }
 ```
 you can find a more in-depth explanation of what each attribute is down below.
-Note - every attribute is important and mandatory. Skipping an attribute will result in the WC crashing.
 
-Pay Attention, the first language that is added to the map _TextAssets_ is the default language. That means it's the language of the interview when it starts. In addition, the conclusions at the end of the interview will be downloaded in this language.
+**Note** - every attribute is important and mandatory. Skipping an attribute will result in the WC crashing.
+
+**Pay Attention**, the first language that is added to the map _TextAssets_ is the **default** language. That means it's the language of the interview when it starts. In addition, the conclusions at the end of the interview will be downloaded in this language.
 
 ### The attributes are:
 
@@ -106,6 +109,9 @@ Pay Attention, the first language that is added to the map _TextAssets_ is the d
 * 26 - submit_comment - describes the content of the button 
 
 * 27 - my_comment_is - describes the content of the placeholder of the input 
+
+
+Attached below are photos of the course of the interview. In each image, the variable is surrounded by its number.
 
 
 ### In case of *"Default"* web component
