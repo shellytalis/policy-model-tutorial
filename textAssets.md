@@ -3,10 +3,59 @@ layout: default
 title: textAssets
 nav_order: 3
 ---
+Each model has its own languages. To add or remove a language, you need to modify this file - `textAssets.js`. 
+
+**How to find the languages available for a model?**
+
+Go to any browser of your choice (can alcommand linecommandline with the command 'curl') and type - 
+`[serverDomain]/apiInterviewCtrl/${modelId}/start/`. 
+Replace the ${modelId} with the Model Id you found before. This shall give you a list of all the possible languages for this specific model.
+
+
+In order to **add a Language** you must write the following - 
+TextAssets.set(~languageName~, ~languageObject~);
+
+A language object looks like this (this is an example for English)- 
+```json
+{
+    welcome: "Welcome",
+    start_interview: "Start Interview",
+    start: "Start",
+    show_transcript: "Show Transcript",
+    hide_transcript: "Hide Transcript",
+    question: "Question",
+    your_answer: "Your answer",
+    revisit: "Revisit this question",
+    show_conclusion: "Show Conclusion",
+    home: "Home",
+    welcome: "Welcome to the PolicyModels test site!",
+    result: "Your results",
+    conclusion_page: "Conclusion Page",
+    press_conclusions: "Press the \"show conclusion\" button to see the conclusion of your interview",
+    download_transcript: "Download Transcript",
+    write_feedback: "Write feedback",
+    submit_feedback: "submit feedback",
+    show_tags: "Show Current Tags (intermediate result)",
+    hide_tags: "Hide Current Tags (intermediate result)",
+    my_feedback_is: "My Feedback is:",
+    my_name_is: "My name is:",
+    download_conclusions: "Download Conclusions",
+    enter_answer: "Enter your answer here",
+    write_comment: "Add personal comment",
+    hide_comment: "Hide comment",
+    my_comment_is: "my comment is:"
+}
+```
+you can find a more in-depth explanation of what each attribute is down below.
+Note - every attribute is important and mandatory. Skipping an attribute will result in the WC crashing.
+
+Pay Attention, the first language that is added to the map _TextAssets_ is the default language. That means it's the language of the interview when it starts. In addition, the conclusions at the end of the interview will be downloaded in this language.
+
+### The attributes are:
 
 * 1 - languages - describes the content of the options in the languages menu.
 
-* 2 - welcome - describes the content of the title in the welcome page
+* 2 - welcome - describes the content of the title on the welcome page
 
 * 3 - start_interview - describes the content of the button 
 
@@ -18,9 +67,9 @@ nav_order: 3
 
 * 7 - hide_transcript - describes the content of the button 
 
-* 8 - question - describes the content in the transcript ?
+* 8 - question - describes the content in the transcript
 
-* 9 - your_answer - describes the content in the transcript ?
+* 9 - your_answer - describes the content in the transcript
 
 * 10 - revisit - describes the content of the button 
 
@@ -30,9 +79,9 @@ nav_order: 3
 
 * 13 - welcome_PM - describes the content of the title
 
-* 14 - results - describes the content in the conclusion page
+* 14 - results - describes the content on the conclusion page
 
-* 15 - conclusion_page - describes the content of the title in the conclusion page
+* 15 - conclusion_page - describes the content of the title on the conclusion page
 
 * 16 - press_conclusions - describes the content that appears after the last question
 
