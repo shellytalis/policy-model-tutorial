@@ -3,7 +3,15 @@ layout: default
 title: textAssets
 nav_order: 3
 ---
-Each model has its own languages. To add or remove a language, you need to modify this file - `textAssets.js`. 
+The file `textAssets.js` contains all of the text assets found in the web components (Including but not limited to - the text inside buttons, titles, etc).
+
+This file contains text assets for each language of the chosen model. 
+Each model has its own languages. 
+To add or remove a language, to change the text of a button or title - you must modify this file - `textAssets.js`. 
+
+### Pay Attention!
+
+Modifying this file is not optional. This file being fully updated is a must for the web component to run at all. 
 
 **How to find the languages available for a model?**
 
@@ -15,7 +23,7 @@ Replace the ${modelId} with the Model Id you found before. This shall give you a
 
 In order to **add a Language** you must write the following - 
 
-TextAssets.set(~languageName~, ~languageObject~);
+TextAssets.set(${languageName}, ${languageObject});
 
 A language object looks like this (this is an example for English)- 
 ```json
@@ -48,7 +56,7 @@ A language object looks like this (this is an example for English)-
     my_comment_is: "my comment is:"
 }
 ```
-you can find a more in-depth explanation of what each attribute is down below.
+You can find a more in-depth explanation of what each attribute is down below.
 
 **Note** - every attribute is important and mandatory. Skipping an attribute will result in the WC crashing.
 
@@ -64,7 +72,7 @@ you can find a more in-depth explanation of what each attribute is down below.
 
 * 4 - start - describes the content of the button 
 
-* 5 - enter_answer - describes the content of the placeholder of the input 
+* 5 - enter_answer - describes the content of the placeholder of the input
 
 * 6 - show_transcript - describes the content of the button 
 
@@ -113,7 +121,7 @@ you can find a more in-depth explanation of what each attribute is down below.
 
 Attached below are photos of the course of the interview. In each image, the attribute is surrounded by its number.
 
-Note - Some attributes appear in only one web component.
+Note - Some attributes appear in only one web component. 
 
 
 ### In case of *"Default"* web component
