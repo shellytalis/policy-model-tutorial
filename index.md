@@ -88,7 +88,7 @@ In the html **_policy-models-default_** tag or **_policy-models-chat_** tag add:
  <div id="style"> <<nameOfFile>> </div>
 ```
     
-In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style that you want the site to have.
+In the **<<nameOfFile>>** you need to write the **name of the css file** that describes the style you want the site to have.
     
 
 You can find our css files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
@@ -111,17 +111,10 @@ You can find our css files in our [GitHub](https://github.com/EilonBenIshay/Poli
     
     
     
-### 4. Add Script tag
+### 4. Add 3 Script tags
     
     
-In the **_body_** tag on your html page, after the _policy-models-default_ tag or the _policy-models-chat_ tag, add a html tag that called **_script_**. The _src_ attribute specifies the source of the java script file. The _type_ attribute specifies the type of the script.
-
-```yaml
-    <script type = "module" src= <<nameOfFile>> ></script>
-```
-    
-In the **_<<nameOfFile>>_** you need to write the **name of the source file**. 
-    
+In the **_body_** tag on your html page, after the _policy-models-default_ tag or the _policy-models-chat_ tag, add 3 html tags called **_script_**. The _src_ attribute specifies the source of the javascript file. The _type_ attribute specifies the type of the script.  
 
 You can find our source files in our [GitHub](https://github.com/EilonBenIshay/PolicyModelsProjectFrontend2022). 
     
@@ -142,12 +135,19 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
     <script type = "module" src="./connection.js"></script>
     <script type = "module" src="./textAssets.js"></script>
 ```
-    
+                                                 
+* `policyModelsDefault.js` or `policyModelsChat.js` is the source file of the web component itself.     
+                                                 
+* `connection.js` is a file that is responsible for the connection between the server and the web component.     
+
+* `textAssets.js` is a file that saves all the contents in variables, like the content inside a button or titles. In addition, each model has its own languages. To add / remove a language, you need to modify this file.
+                                                 
+For more information on this file, click [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).    
     
 ### Finally 
     
     
-After all the steps, the html file should looking like this:
+After all the steps, the html file should look like this:
     
 >In case of **_policy-models-default_** it will be like this: `indexDefault.html`
     
