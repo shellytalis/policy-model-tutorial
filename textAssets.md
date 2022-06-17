@@ -3,9 +3,8 @@ layout: default
 title: textAssets
 nav_order: 3
 ---
-The file `textAssets.js` contains all of the text assets found in the web components (Including but not limited to - the text inside buttons, titles, etc).
+The file `textAssets.js` contains all the text assets for each language of the chosen model (Including but not limited to - the text inside buttons, titles, etc).
 
-This file contains text assets for each language of the chosen model. 
 Each model has its own languages. 
 To add or remove a language, to change the text of a button or title - you must modify this file - `textAssets.js`. 
 
@@ -23,7 +22,7 @@ Replace the ${modelId} with the Model Id you found before. This shall give you a
 
 In order to **add a Language** you must write the following - 
 
-TextAssets.set(${languageName}, ${languageObject});
+`TextAssets.set(${languageName}, ${languageObject});`
 
 A language object looks like this (this is an example for English)- 
 ```json
