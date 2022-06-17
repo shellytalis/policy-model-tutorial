@@ -10,7 +10,7 @@ To add or remove a language, to change the text of a button or title - you must 
 
 ### Pay Attention!
 
-Modifying this file is not optional. This file being fully updated is a must for the web component to run at all. 
+Modifying this file is **mandatory**. This file being fully updated is a must for the web component to run at all. 
 
 **How to find the languages available for a model?**
 
