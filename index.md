@@ -47,13 +47,13 @@ In the **_body_** tag on your html page, add a html tag that called _policy-mode
 
 > In case of **_policy-models-default_** it will be like this: 
 
-> ```yaml
+```yaml
 <policy-models-default name="PolicyModels">
     </policy-models-default>
 ```
 > In case of **_policy-models-chat_** it will be like this: 
 
-> ```yaml
+```yaml
 <policy-models-chat name="PolicyModels">
     </policy-models-chat>
 ```
@@ -76,13 +76,12 @@ In the **${modelId}** you need to write the **id of the model** of the interview
                    
 In the **${versionId}** you need to write the **version id of the model** of the interview. 
                     
-**How to find the Model ID and the Model Version?**
+> **How to find the Model ID and the Model Version?**
 
-Go to any browser of your choice (can also use the commandline with the command 'curl') and type - 
-`[serverDomain]/apiInterviewCtrl/models/` .
-This shall give you a list of all models, their names, Id's and versions.                       
+> Go to any browser of your choice (can also use the commandline with the command 'curl') and type - `[serverDomain]/apiInterviewCtrl/models/` . This shall give you a list of all models, their names, Id's and versions.                       
                     
-    
+----
+
 ### 3. Add Style
     
 
@@ -99,13 +98,13 @@ You can find our css files in our [GitHub](https://github.com/EilonBenIshay/Poli
     
 **Pay Attention!** You need to put the css file in the same folder as the html file.
     
->In case of **_policy-models-default_** it will be like this: `styleDefault.css`
+> In case of **_policy-models-default_** it will be like this: `styleDefault.css`
     
 ```yaml
     <div id="style">styleDefault.css</div>
 ```
     
->In case of **_policy-models-chat_** it will be like this: `styleChat.css`
+> In case of **_policy-models-chat_** it will be like this: `styleChat.css`
     
 ```yaml
     <div id="style">styleChat.css</div>
@@ -113,7 +112,7 @@ You can find our css files in our [GitHub](https://github.com/EilonBenIshay/Poli
     
 ## [How to write the css file](https://shellytalis.github.io/policy-model-tutorial/style.html)
     
-    
+----    
     
 ### 4. Add 3 Script tags
     
@@ -124,7 +123,7 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
     
 **Pay Attention!** You need to put the js files in the same folder as the html file.
     
->In case of **_policy-models-default_** it will be like this: `policyModelsDefault.js`, `connection.js`, `textAssets.js`
+> In case of **_policy-models-default_** it will be like this: `policyModelsDefault.js`, `connection.js`, `textAssets.js`
     
 ```yaml
     <script type = "module" src="./policyModelsDefault.js"></script>
@@ -132,7 +131,7 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
     <script type = "module" src="./textAssets.js"></script>
 ```
     
->In case of **_policy-models-chat_** it will be like this: `policyModelsChat.js`, `connection.js`, `textAssets.js`
+> In case of **_policy-models-chat_** it will be like this: `policyModelsChat.js`, `connection.js`, `textAssets.js`
     
 ```yaml
     <script type = "module" src="./policyModelsChat.js"></script>
@@ -142,17 +141,20 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
                                                  
 * `policyModelsDefault.js` or `policyModelsChat.js` is the source file of the web component itself.     
                                                  
-* `connection.js` is a file that is responsible for the connection between the server and the web component.
-   **Pay attention!** On the `connection.js` file, you need to change the serverDomain attribute (in line 5) to the domain of the server.                                              
+* ⋅⋅⋅`connection.js` is a file that is responsible for the connection between the server and the web component.⋅⋅
+   ⋅⋅⋅**Pay attention!** On the `connection.js` file, you need to change the serverDomain attribute (in line 5) to the domain of the server.⋅⋅                                              
 
-* `textAssets.js` is a file that saves all the contents in variables, like the content inside a button or titles. It is critical to edit this file for the web component to work. For more information, click [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).    
+* ⋅⋅⋅``textAssets.js` is a file that saves all the contents in variables, like the content inside a button or titles.⋅⋅ 
+  ⋅⋅⋅`It is **critical** to edit this file for the web component to work. For more information, click [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).⋅⋅    
     
+----
+
 ### Finally 
     
     
 After all the steps, the html file should look like this:
     
->In case of **_policy-models-default_** it will be like this: `indexDefault.html`
+> In case of **_policy-models-default_** it will be like this: `indexDefault.html`
     
 ```yaml
     <html>
@@ -169,7 +171,7 @@ After all the steps, the html file should look like this:
     </html>
 ```
     
->In case of **_policy-models-chat_** it will be like this: `indexChat.html`
+> In case of **_policy-models-chat_** it will be like this: `indexChat.html`
     
 ```yaml
     <html>
