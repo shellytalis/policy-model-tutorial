@@ -130,14 +130,15 @@ You can find a more in-depth explanation of what each attribute is down below.
 
 Attached below are photos of the course of the interview. In each image, the attribute is surrounded by its number.
 
-Note - Some attributes appear in only one web component.
+**Note** - Some attributes appear in only one web component.
 
 ^only relevant for default WC
+
 ^^only relevant for Chat WC
 
 ---
 
-### In case of *"Default"* web component
+### In case of _Default_ web component
 
 ----
 
@@ -160,7 +161,7 @@ Note - Some attributes appear in only one web component.
 <img width="651" alt="default5" src="https://user-images.githubusercontent.com/48415128/173602280-be353f0c-7006-4fbd-af5f-68a32c2946ff.jpeg">
 
 
-### In case of *"Chat"* web component
+### In case of _Chat_ web component
 
 ----
 
