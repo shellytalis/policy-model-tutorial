@@ -29,6 +29,8 @@ There are two web components:
 
 <img width="887" alt="defaultInterviewNew" src="https://user-images.githubusercontent.com/48415128/171956969-c642453d-9a52-47d9-9263-bf56c436e58d.png">
 
+---
+
 ### The "Chat" web component
 
 <img width="851" alt="chatInterviewNew" src="https://user-images.githubusercontent.com/48415128/172172014-da893494-f8fb-4975-aa82-fbdf0d33d8d1.png">
@@ -76,9 +78,9 @@ In the **${modelId}** you need to write the **id of the model** of the interview
                    
 In the **${versionId}** you need to write the **version id of the model** of the interview. 
                     
-> **How to find the Model ID and the Model Version?**
+* **How to find the Model ID and the Model Version?**
 
-> Go to any browser of your choice (can also use the commandline with the command 'curl') and type - `[serverDomain]/apiInterviewCtrl/models/` . This shall give you a list of all models, their names, Id's and versions.                       
+Go to any browser of your choice (can also use the commandline with the command 'curl') and type - `[serverDomain]/apiInterviewCtrl/models/` . This shall give you a list of all models, their names, Id's and versions.                       
                     
 ----
 
@@ -141,11 +143,11 @@ You can find our source files in our [GitHub](https://github.com/EilonBenIshay/P
                                                  
 * `policyModelsDefault.js` or `policyModelsChat.js` is the source file of the web component itself.     
                                                  
-* ⋅⋅⋅`connection.js` is a file that is responsible for the connection between the server and the web component.⋅⋅
-   ⋅⋅⋅**Pay attention!** On the `connection.js` file, you need to change the serverDomain attribute (in line 5) to the domain of the server.⋅⋅                                              
+* `connection.js` is a file that is responsible for the connection between the server and the web component.
+   **Pay attention!** On the `connection.js` file, you need to change the serverDomain attribute (in line 5) to the domain of the server.                                             
 
-* ⋅⋅⋅``textAssets.js` is a file that saves all the contents in variables, like the content inside a button or titles.⋅⋅ 
-  ⋅⋅⋅`It is **critical** to edit this file for the web component to work. For more information, click [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).⋅⋅    
+* ``textAssets.js` is a file that saves all the contents in variables, like the content inside a button or titles. 
+  `It is **critical** to edit this file for the web component to work. For more information, click [here](https://shellytalis.github.io/policy-model-tutorial/textAssets.html).   
     
 ----
 
@@ -170,6 +172,8 @@ After all the steps, the html file should look like this:
     </body>
     </html>
 ```
+
+----
     
 > In case of **_policy-models-chat_** it will be like this: `indexChat.html`
     
