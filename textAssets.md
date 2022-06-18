@@ -6,19 +6,26 @@ nav_order: 3
 The file `textAssets.js` contains all the text assets for each language of the chosen model (Including but not limited to - the text inside buttons, titles, etc).
 
 Each model has its own languages. 
-To add or remove a language, to change the text of a button or title - you must modify this file - `textAssets.js`. 
+To add or remove a language, to change the text of a button or title - you **must** modify this file - `textAssets.js`. 
+
+---
 
 ### Pay Attention!
 
 Modifying this file is **mandatory**. This file being fully updated is a must for the web component to run at all. 
 
+---
+
 **How to find the languages available for a model?**
 
 Go to any browser of your choice (can also use the commandline with the command 'curl') and type - 
 `[serverDomain]/apiInterviewCtrl/${modelId}/start/`. 
-Replace the ${modelId} with the Model Id you found before. This shall give you a list of all the possible languages for this specific model.
+Replace the ${modelId} with the Model Id you found before. This shall give you a list of all the possible languages for this specific model. `[serverDomain]` is `https://policymodelsserver.azurewebsites.net/`. 
+
+---
 
 ### After finding the languages of the model ... 
+
 
 In order to **add a Language** you must write the following - 
 
@@ -61,25 +68,27 @@ You can find a more in-depth explanation of what each attribute is down below.
 
 **Pay Attention**, the first language that is added to the map _TextAssets_ is the **default** language. That means it's the language of the interview when it starts. In addition, the conclusions at the end of the interview will be downloaded in this language.
 
+---
+
 ### The attributes are:
 
 * 1 - languages - describes the content of the options in the languages menu.
 
-* 2 - welcome - describes the content of the title on the welcome page
+* 2 - welcome^^ - describes the content of the title on the welcome page
 
 * 3 - start_interview - describes the content of the button 
 
 * 4 - start - describes the content of the button 
 
-* 5 - enter_answer - describes the content of the placeholder of the input
+* 5 - enter_answer^^ - describes the content of the placeholder of the input
 
-* 6 - show_transcript - describes the content of the button 
+* 6 - show_transcript^ - describes the content of the button 
 
-* 7 - hide_transcript - describes the content of the button 
+* 7 - hide_transcript^ - describes the content of the button 
 
-* 8 - question - describes the content in the transcript
+* 8 - question^ - describes the content in the transcript
 
-* 9 - your_answer - describes the content in the transcript
+* 9 - your_answer^ - describes the content in the transcript
 
 * 10 - revisit - describes the content of the button 
 
@@ -87,7 +96,7 @@ You can find a more in-depth explanation of what each attribute is down below.
 
 * 12 - home - describes the content of the button 
 
-* 13 - welcome_PM - describes the content of the title
+* 13 - welcome_PM^ - describes the content of the title
 
 * 14 - results - describes the content on the conclusion page
 
@@ -117,11 +126,16 @@ You can find a more in-depth explanation of what each attribute is down below.
 
 * 27 - my_comment_is - describes the content of the placeholder of the input 
 
+--- 
 
 Attached below are photos of the course of the interview. In each image, the attribute is surrounded by its number.
 
-Note - Some attributes appear in only one web component. 
+Note - Some attributes appear in only one web component.
 
+^only relevant for default WC
+^^only relevant for Chat WC
+
+---
 
 ### In case of *"Default"* web component
 
