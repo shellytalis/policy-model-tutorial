@@ -22,7 +22,9 @@ This link tag is a link to an external style sheet.
 
 Each file includes names of classes or IDs that express buttons, titles, paragraphs and so on. Each class or ID has its own design. You have the option to use or modify our default file. 
 
-**Pay attention!** To change the file, the names of the classes or IDs must remain the same and **only** their design can be changed using css.
+**Pay attention!** 
+
+To change the file, the names of the classes or IDs must remain the same and **only** their design can be changed using css.
 
 ----
 
