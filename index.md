@@ -19,9 +19,9 @@ A documentation about Policy Models web component
 ## Getting started
 There are two web components:
 
-The first web component,**"Default" web component**, is the default interview constructed as follows- multiple choice questions that can be answered by clicking a button that represents the appropriate answer. 
+* The first web component,**"Default" web component**, is the default interview constructed as follows- multiple choice questions that can be answered by clicking a button that represents the appropriate answer. 
 
-The second web component,**"Chat" web component**, is in the form of a chat where you can answer questions using two ways: the first way is by clicking on a button that represents the appropriate answer and the second way is to type in the text box the appropriate answer number. 
+* The second web component,**"Chat" web component**, is in the form of a chat where you can answer questions using two ways: the first way is by clicking on a button that represents the appropriate answer. The second way is to type in the text box the appropriate answer number. 
 
 ## How it looks like...
 
@@ -33,31 +33,35 @@ The second web component,**"Chat" web component**, is in the form of a chat wher
 
 <img width="851" alt="chatInterviewNew" src="https://user-images.githubusercontent.com/48415128/172172014-da893494-f8fb-4975-aa82-fbdf0d33d8d1.png">
 
+----
+
 ### Pay attention
 All the following steps are done in your **html file**.
 
+----
 
 ### 1. Quick start: Use a Html tag
 
 
 In the **_body_** tag on your html page, add a html tag that called _policy-models-default_ or _policy-models-Chat_.
 
->In case of **_policy-models-default_** it will be like this: 
+> In case of **_policy-models-default_** it will be like this: 
 
-```yaml
+> ```yaml
 <policy-models-default name="PolicyModels">
     </policy-models-default>
 ```
->In case of **_policy-models-chat_** it will be like this: 
+> In case of **_policy-models-chat_** it will be like this: 
 
-```yaml
+> ```yaml
 <policy-models-chat name="PolicyModels">
     </policy-models-chat>
 ```
 
-<small> There is an attribute "name" that specifies the name of the element. In our case it is _PolicyModels_.
+There is an attribute "name" that specifies the name of the element. In our case it is _PolicyModels_.
     
-   
+----
+    
 ### 2. Add modelId and versionId
     
 
