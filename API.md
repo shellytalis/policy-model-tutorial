@@ -38,6 +38,7 @@ _Output example:_
 ----
 
 `GET  /apiInterviewCtrl/:modelId/start`
+
 returns -> list of available languages of the interview model with modelId
 
 _Output example:_
@@ -96,7 +97,7 @@ _Output example:_
 
 `POST /apiInterviewCtrl/answerPost/`
 
-answers one question and get the next one in the output. This POST API needs json body contains the values of each one of the required params:
+Answers one question and get the next one in the output. This POST API needs json body contains the values of each one of the required params:
 
 * uuid : the userId that you get from the previous api output.
 
@@ -155,7 +156,7 @@ _Output example:_
 
 `GET  /apiInterviewCtrl/askHistory/:uuid/:modelId/:versionId/:languageId/:questionId/`
 
-Return the current history, and the answers that you have submit, and also returns in the interview back to the question with id is questionId.
+Returns the current history, and the answers that you have submit, and also returns in the interview back to the question with id is questionId.
 
 _Output example:_
 
