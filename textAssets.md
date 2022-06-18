@@ -14,7 +14,7 @@ Modifying this file is **mandatory**. This file being fully updated is a must fo
 
 **How to find the languages available for a model?**
 
-Go to any browser of your choice (can alcommand linecommandline with the command 'curl') and type - 
+Go to any browser of your choice (can also use the commandline with the command 'curl') and type - 
 `[serverDomain]/apiInterviewCtrl/${modelId}/start/`. 
 Replace the ${modelId} with the Model Id you found before. This shall give you a list of all the possible languages for this specific model.
 
