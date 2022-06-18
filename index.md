@@ -155,7 +155,8 @@ After all the steps, the html file should look like this:
     <body>
         <policy-models-default name="PolicyModels">
             <div id="style">styleDefault.css</div>
-            <div id="model">WORKRIGHTS</div>
+            <div id="modelId">1</div>
+            <div id="versionId">1</div>
         </policy-models-default>
         <script type = "module" src="./policyModelsDefault.js"></script>
         <script type = "module" src="./connection.js"></script>
@@ -171,9 +172,10 @@ After all the steps, the html file should look like this:
     <body>
         <policy-models-chat name="PolicyModels">
             <div id="style">styleChat.css</div>
-            <div id="model">WORKRIGHTS</div>
+            <div id="modelId">1</div>
+            <div id="versionId">1</div>
         </policy-models-chat>
-        <script type = "module" src="./policyModelsChat.js"></script>
+        <script type = "module" src="policyModelsChat.js"></script>
         <script type = "module" src="./connection.js"></script>
         <script type = "module" src="./textAssets.js"></script>
     </body>
