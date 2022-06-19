@@ -168,6 +168,7 @@ Attached below are photos of the course of the interview. In each image, the att
 
 <img width="651" alt="default6" src="https://user-images.githubusercontent.com/48415128/174488171-a4747a28-4124-4a92-8124-6c52137d46db.png">
 
+----
 
 ### In case of _Chat_ web component
 
