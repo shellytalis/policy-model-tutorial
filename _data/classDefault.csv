@@ -21,6 +21,8 @@ backToHome,This class div contains the 'backToWelcomePage' class button `Home`
 conclusionContent,This class paragraph contains the content of the title in the Conclusion page
 namePolicyModels,This class paragraph contains the big title that should be PolicyModels
 questions,This class paragraph contains the subheading in the interview page and the questions
-transitionToConclusionPageContent,This class paragraph contains Contains the content that appears after the last question and before going to the conclusions page
+transitionToConclusionPageContent,This class paragraph contains the content that appears after the last question and before going to the conclusions page
 commentDiv,This class div contains the 'commentBtn' class button `Write Personal Comment`
 commentInputDiv,This class div contains the 'inputCommentID' id input
+rejectionContent,This class paragraph contains the content of the title in rejection page
+rejectionAdvice,This class paragraph contains the content in rejection page
