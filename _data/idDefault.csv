@@ -1,5 +1,6 @@
 nameOfTheID,description
 mySelect,describes the menu of languages 
+transcript-toggle,describes the button `show transcript`
 inputID,describes the input in which you write down the feedback 
 inputNameID,describes the input in which you write down the name of the person who writes the feedback
 inputCommentID,describes the input in which you write down your comment
