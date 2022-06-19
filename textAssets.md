@@ -164,6 +164,10 @@ Attached below are photos of the course of the interview. In each image, the att
 
 <img width="651" alt="default5" src="https://user-images.githubusercontent.com/48415128/173602280-be353f0c-7006-4fbd-af5f-68a32c2946ff.jpeg">
 
+----
+
+<img width="651" alt="default6" src="https://user-images.githubusercontent.com/48415128/174488171-a4747a28-4124-4a92-8124-6c52137d46db.png">
+
 
 ### In case of _Chat_ web component
 
@@ -186,4 +190,12 @@ Attached below are photos of the course of the interview. In each image, the att
 ----
 
 <img width="651" alt="chat5" src="https://user-images.githubusercontent.com/48415128/173581731-d5b16fc7-06e3-415c-aa28-79e2f901c164.png">
+
+----
+
+<img width="651" alt="chat6" src="https://user-images.githubusercontent.com/48415128/174488549-3d86b5fc-c6ee-4c04-af18-aead000b3264.png">
+
+----
+
+<img width="651" alt="chat7" src="https://user-images.githubusercontent.com/48415128/174488561-9ad76e64-ccd8-4701-96d3-41615a4dcdb0.png">
 
