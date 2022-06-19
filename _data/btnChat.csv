@@ -12,3 +12,4 @@ btnDownloadConclusions,`Download Conclusions` button that downloads the conclusi
 feedbackSubmitBtn,`Submit Feedback` button that submits the feedback 
 commentSubmitBtn,`Submit Personal Comment` button that submits the comment 
 btn,The answers buttons
+btnShowTranscript,`Show Transcript` button that shows the transcript of the interview
