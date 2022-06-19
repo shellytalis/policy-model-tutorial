@@ -5,3 +5,4 @@ inputID,describes the input in which you write down the number of your answer to
 inputFeedbackID,describes the input in which you write down your feedback
 inputFeedbacNameID,describes the input in which you write down the name of the person who writes the feedback
 inputCommentID,describes the input in which you write down your comment
+internalCheckUp, describes the div that runs an internal test 
