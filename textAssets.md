@@ -82,13 +82,13 @@ You can find a more in-depth explanation of what each attribute is down below.
 
 * 5 - enter_answer^^ - describes the content of the placeholder of the input
 
-* 6 - show_transcript^ - describes the content of the button 
+* 6 - show_transcript - describes the content of the button 
 
-* 7 - hide_transcript^ - describes the content of the button 
+* 7 - hide_transcript - describes the content of the button 
 
-* 8 - question^ - describes the content in the transcript
+* 8 - question - describes the content in the transcript
 
-* 9 - your_answer^ - describes the content in the transcript
+* 9 - your_answer - describes the content in the transcript
 
 * 10 - revisit - describes the content of the button 
 
@@ -125,6 +125,10 @@ You can find a more in-depth explanation of what each attribute is down below.
 * 26 - submit_comment - describes the content of the button 
 
 * 27 - my_comment_is - describes the content of the placeholder of the input 
+
+* 28 - rejection - describes the content of the title on the rejection page
+
+* 29 - rejection_advice - describes the content on the rejection page
 
 --- 
 
