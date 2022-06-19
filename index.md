@@ -80,7 +80,21 @@ In the **${versionId}** you need to write the **version id of the model** of the
                     
 * **How to find the Model ID and the Model Version?**
 
-Go to any browser of your choice (can also use the commandline with the command 'curl') and type - `[serverDomain]/apiInterviewCtrl/models/` . This shall give you a list of all models, their names, Id's and versions. `[serverDomain]` is `https://policymodelsserver.azurewebsites.net/`.                      
+Go to any browser of your choice (can also use the commandline with the command 'curl') and type - `[serverDomain]/apiInterviewCtrl/models/` . This shall give you a list of all models, their names, Id's and versions. `[serverDomain]` is `https://policymodelsserver.azurewebsites.net/`. 
+
+### Optional
+After modelId and versionId div tags, you have the option to add the following line-
+```yaml
+<div id ="internalCheckUp"></div>
+```
+This div will make the two web components run an internal test and check if other elements it needs are in place. Namely the 'connection.js' file, the 'textAssets.js' file and CSS file.
+
+Finally it should look like this - 
+```yaml
+ <div id="modelId> ${modelId} </div>
+ <div id="versionId"> ${versionId} </div>
+ <div id ="internalCheckUp"></div>
+```
                     
 ----
 
