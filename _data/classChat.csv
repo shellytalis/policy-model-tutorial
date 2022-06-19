@@ -20,3 +20,7 @@ conclusions,This class div contains the conclusions
 downloadConclusions,This class div contains the 'btnDownloadConclusions' class button `Download Conclusions`
 backToHome,This class div contains the 'backToWelcomePage' class button `Home`
 comment,This class div contains the 'commentBtn' class button `Write Personal Comment`, the 'commentSubmitBtn' class button `Submit Personal Comment` and the 'inputCommentID' id input
+rejectionContent,This class paragraph contains the content of the title in rejection page
+rejectionAdvice,This class paragraph contains the content in rejection page
+divBtnShowTranscript,This class div contains the 'btnShowTranscript' class button `Show Transcript`
+transcript,This class div contains the transcript
